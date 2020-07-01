@@ -20,9 +20,7 @@
 
         var result = {
             clicks: 0,//每版印数
-            material_clicks: 0,//材料数量
-            Yn: 0,//剩余数量
-
+            material_clicks: 0//材料数量
         };
 
         switch (F) {
@@ -134,6 +132,19 @@
                 break;
         }
 
+        result = {
+            clicks: result.click,
+            material_clicks: result.material_clicks,
+            Sn: Sn,
+            Pn: Pn,
+            Gn: Gn,
+            M: M,
+            Bn: Bn,
+            F: F,
+            N: N,
+            S: S,
+            Yn: Yn
+        };
 
         return result;
     }
