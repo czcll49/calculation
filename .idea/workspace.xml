@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ff3b6a1-7c9d-4284-b254-0bebd567d5a3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/main.js" afterDir="false" />
-    </list>
+    <list default="true" id="7ff3b6a1-7c9d-4284-b254-0bebd567d5a3" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,8 +58,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="85" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="85" />
+            <state relative-caret-position="216">
+              <caret line="166" lean-forward="true" selection-start-line="166" selection-end-line="166" />
               <folding>
                 <element signature="e#516#708#0" />
                 <element signature="e#721#1395#0" />
@@ -112,8 +109,8 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1739" />
-    <option name="y" value="67" />
+    <option name="x" value="86" />
+    <option name="y" value="105" />
     <option name="width" value="1497" />
     <option name="height" value="960" />
   </component>
@@ -157,12 +154,12 @@
       <option name="presentableId" value="Default" />
       <updated>1593591566866</updated>
       <workItem from="1593591568382" duration="11754000" />
-      <workItem from="1593652543075" duration="7433000" />
+      <workItem from="1593652543075" duration="8073000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19187000" />
+    <option name="totallyTimeSpent" value="19827000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -174,8 +171,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -184,7 +180,7 @@
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" order="3" weight="0.32929516" />
-      <window_info anchor="bottom" id="Terminal" order="4" weight="0.5495595" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="4" visible="true" weight="0.51321584" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
@@ -214,8 +210,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="85" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="85" />
+        <state relative-caret-position="216">
+          <caret line="166" lean-forward="true" selection-start-line="166" selection-end-line="166" />
           <folding>
             <element signature="e#516#708#0" />
             <element signature="e#721#1395#0" />

@@ -149,7 +149,7 @@
                 }
 
                 break;
-        }
+        } 
 
         result = {
             clicks: result.clicks,
