@@ -1,7 +1,7 @@
 ;(function () {
 
     /////////////////(Sn,  Pn,  Gn, M,     Bn, F, N, S, Yn)
-    var result = calc(100, 100, 14, 100000, 6, 1, 1, 2, 0);
+    var result = calc(100, 100, 14, 10, 6, 9, 1, 2, 0);
 
     document.getElementsByClassName('pre')[0].innerHTML = JSON.stringify(result);
 
@@ -121,7 +121,7 @@
 
                 result['clicks'] = Math.ceil(Pn * Sn / M);
 
-                var L = 210;//
+                var L = 210;
                 result['material_clicks'] = L * Math.ceil(Pn * Sn / M) / 1000;
 
                 break;
@@ -131,7 +131,7 @@
 
                 result['clicks'] = 1;
 
-                var W = 210;
+                var W = 2500;
                 var CL = 210;
                 var CW = 285;
 
