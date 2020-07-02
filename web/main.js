@@ -1,6 +1,9 @@
 ;(function () {
 
-    console.log(calc(100, 100, 2, 7, 6, 1, 1, 2, 0));
+    /////////////////(Sn,  Pn,  Gn, M,     Bn, F, N, S, Yn)
+    var result = calc(100, 100, 14, 100000, 6, 1, 1, 2, 0);
+
+    document.getElementsByClassName('pre')[0].innerHTML = JSON.stringify(result);
 
     function calc (Sn, Pn, Gn, M, Bn, F, N, S, Yn) {
 
@@ -31,7 +34,7 @@
                     var clicks = Math.floor(Pn * Sn / M);
                     if (clicks == 0) {
                         F = 2;
-                        calc(Sn, Pn, Gn, M, Bn, F, N, S, Yn);
+                        result = calc(Sn, Pn, Gn, M, Bn, F, N, S, Yn);
                     } else {
                         result['clicks'] = clicks;
                         result['material_clicks'] = clicks * Bn;
@@ -90,7 +93,7 @@
                 if (N == 1) {
                     if (S == 1) {
                         F = 3;
-                        calc(Sn, Pn, Gn, M, Bn, F, N, S, Yn);
+                        result = calc(Sn, Pn, Gn, M, Bn, F, N, S, Yn);
                     } else {
                         if (Gn <= M) {
                             Yn = Gn - Math.floor(Gn / M) * M;
@@ -118,8 +121,8 @@
 
                 result['clicks'] = Math.ceil(Pn * Sn / M);
 
-                var length = 210;//
-                result['material_clicks'] = length * Math.ceil(Pn * Sn / M) / 1000;
+                var L = 210;//
+                result['material_clicks'] = L * Math.ceil(Pn * Sn / M) / 1000;
 
                 break;
             case 9:
@@ -128,21 +131,21 @@
 
                 result['clicks'] = 1;
 
-                var width = 210;
-                var component_length = 210;
-                var component_width = 285;
+                var W = 210;
+                var CL = 210;
+                var CW = 285;
 
                 var C = Sn * Pn * Gn / M;
 
-                if (M * component_length > width && M * component_width > width) {
+                if (M * CL > W && M * CW > W) {
 
                     return '模数填写错误或材料门幅选择错误';
-                } else if (M * component_length < width && M * component_width < width) {
+                } else if (M * CL < W && M * CW < W) {
 
-                    result['material_clicks'] = (component_length - component_width) ? C * component_width : C * component_length;
-                } else if (M * component_length > width || M * component_width > width) {
+                    result['material_clicks'] = (CL - CW) ? C * CW : C * CL;
+                } else if (M * CL > W || M * CW > W) {
 
-                    result['material_clicks'] = (component_length - component_width) ? C * component_length : C * component_width;
+                    result['material_clicks'] = (CL - CW) ? C * CL : C * CW;
                 }
 
                 break;
